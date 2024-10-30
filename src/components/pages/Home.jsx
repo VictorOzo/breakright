@@ -5,6 +5,7 @@ import cardimg3 from "../../assets/images/cardimg3.png";
 import cardimg4 from "../../assets/images/cardimg4.png";
 import cardimg5 from "../../assets/images/cardimg5.png";
 import cardimg6 from "../../assets/images/cardimg6.png";
+import searchimg from "../../assets/images/searchimg.png";
 
 export const Home = () => {
   return (
@@ -83,7 +84,26 @@ export const Home = () => {
         </div>
       </div>
 
-      
+      {/* Search Section */}
+      <div className="search_section ">
+        <div className="flex">
+          <div className="search_text">
+            <p>Search for the Right Part</p>
+            <h2>Easily find the parts you need for your vehicle.</h2>
+            <div className="search_form">
+              <input type="text" placeholder="Search for product" />
+              <button>Search</button>
+            </div>
+            <p>
+              Enter OEM Number, Vehicle Type, Part Category or Manufacturer to
+              search for products.
+            </p>
+          </div>
+          <div className="search_img">
+            <img src={searchimg} alt="search image" />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
