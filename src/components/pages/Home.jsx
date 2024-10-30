@@ -9,6 +9,7 @@ import cardimg6 from "../../assets/images/cardimg6.png";
 export const Home = () => {
   return (
     <>
+      {/* Hero Section */}
       <div className="heroSection">
         <div className="hero_text">
           <h1>
@@ -27,46 +28,62 @@ export const Home = () => {
       {/* Catalog Section */}
 
       <div className="catalog_section">
-        <div className="catalog_text">
-          <p>Discover Our Product Categories</p>
-          <h2>Built for performance, Designed for durability</h2>
-        </div>
-        <div className="catalog_card grid grid-cols-3 gap-5">
-          <div className="card w-[400px] h-[340px] rounded-[15px] bg-[blue] ">
-            <img src={cardimg1} />
-            <h2>Title</h2>
-            <p>Value</p>
+        <div className="catalog">
+          <div className="catalog_text">
+            <p>Discover Our Product Categories</p>
+            <h2>Built for performance, Designed for durability</h2>
           </div>
-          <div className="card w-[400px] h-[340px] rounded-[15px] bg-[blue] ">
-            <img src={cardimg2} />
-            <h2>Title</h2>
-            <p>Value</p>
+          <div className="catalog_card grid grid-cols-3 gap-10">
+            <div className="card">
+              <div>
+                <img src={cardimg1} />
+                <h2>Engine Parts</h2>
+                <p>(1000 parts)</p>
+              </div>
+            </div>
+            <div className="card">
+              <div>
+                <img src={cardimg2} />
+                <h2>Suspension & Steering</h2>
+                <p>(1000 parts)</p>
+              </div>
+            </div>
+            <div className="card">
+              <div>
+                <img src={cardimg3} />
+                <h2>Transmission & Driveline</h2>
+                <p>(1000 parts)</p>
+              </div>
+            </div>
+            <div className="card">
+              <div>
+                <img src={cardimg4} />
+                <h2>Brake Systems</h2>
+                <p>(1000 parts)</p>
+              </div>
+            </div>
+            <div className="card">
+              <div>
+                <img src={cardimg5} />
+                <h2>Electrical & Lighting</h2>
+                <p>(1000 parts)</p>
+              </div>
+            </div>
+            <div className="card">
+              <div>
+                <img src={cardimg6} />
+                <h2>Body Parts & Accessories</h2>
+                <p>(1000 parts)</p>
+              </div>
+            </div>
           </div>
-          <div className="card w-[400px] h-[340px] rounded-[15px] bg-[blue] ">
-            <img src={cardimg3} />
-            <h2>Title</h2>
-            <p>Value</p>
+          <div className="catalog_btn">
+            <button>View Full Catalog</button>
           </div>
-          <div className="card w-[400px] h-[340px] rounded-[15px] bg-[blue] ">
-            <img src={cardimg4} />
-            <h2>Title</h2>
-            <p>Value</p>
-          </div>
-          <div className="card w-[400px] h-[340px] rounded-[15px] bg-[blue] ">
-            <img src={cardimg5} />
-            <h2>Title</h2>
-            <p>Value</p>
-          </div>
-          <div className="card w-[400px] h-[340px] rounded-[15px] bg-[blue] ">
-            <img src={cardimg6} />
-            <h2>Title</h2>
-            <p>Value</p>
-          </div>
-        </div>
-        <div className="catalog_btn">
-          <button>View Full Catalog</button>
         </div>
       </div>
+
+      
     </>
   );
 };

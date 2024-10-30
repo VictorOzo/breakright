@@ -1,5 +1,4 @@
 .heroSection {
-  padding: 0 4vw;
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(199, 172, 172, 0), black),
@@ -10,7 +9,7 @@
   display: flex;
   align-items: flex-end;
   text-align: left;
-  padding: 4vw ;
+  padding: 4vw;
 }
 
 .hero_text h1 {
@@ -39,4 +38,57 @@
   border-radius: 10px;
   color: #000d81;
   margin-top: 30px;
+}
+
+.catalog_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 4vw;
+}
+
+.catalog_text {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.catalog_btn button {
+  background-color: #000d81;
+  color: #fff;
+  width: 219px;
+  height: 56px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.catalog_text p {
+  color: #000d81;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.catalog_text h2 {
+  color: #1e1e1e;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f3eee1;
+  width: 400px;
+  height: 340px;
+  border-radius: 15px;
+}
+
+.card h2 {
+  color: #1e1e1e;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
 }
