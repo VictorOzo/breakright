@@ -106,6 +106,18 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <div className="catelog_carousel">
+        <div className="carousel_text">
+          <h3>Serving a Wide Range of Industries</h3>
+          <h2>Tailored solutions for your specific vehicle needs</h2>
+        </div>
+        <div className="carousel">
+          <img src="" alt="" />
+        </div>
+        <div className="carousel_button">
+          <button>Explore Our Industries</button>
+        </div>
+      </div>
     </>
   );
 };
