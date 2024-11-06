@@ -86,9 +86,9 @@ export const Home = () => {
 
       {/* Search Section */}
       <div className="search_section ">
-        <div className="flex">
-          <div className="search_text">
-            <p>Search for the Right Part</p>
+        <div className="flex search_details">
+          <div className="search_text w-[609px]">
+            <h4>Search for the Right Part</h4>
             <h2>Easily find the parts you need for your vehicle.</h2>
             <div className="search_form">
               <input type="text" placeholder="Search for product" />
@@ -100,7 +100,9 @@ export const Home = () => {
             </p>
           </div>
           <div className="search_img">
-            <img src={searchimg} alt="search image" />
+            <div className="img">
+              <img src={searchimg} alt="search image" />
+            </div>
           </div>
         </div>
       </div>
