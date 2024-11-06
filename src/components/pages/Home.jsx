@@ -5,6 +5,9 @@ import cardimg3 from "../../assets/images/cardimg3.png";
 import cardimg4 from "../../assets/images/cardimg4.png";
 import cardimg5 from "../../assets/images/cardimg5.png";
 import cardimg6 from "../../assets/images/cardimg6.png";
+import carouselimg1 from "../../assets/images/carouselimg1.png";
+import carouselimg2 from "../../assets/images/carouselimg2.png";
+import carouselimg3 from "../../assets/images/carouselimg3.png";
 import searchimg from "../../assets/images/searchimg.png";
 
 export const Home = () => {
@@ -107,15 +110,21 @@ export const Home = () => {
         </div>
       </div>
       <div className="catelog_carousel">
-        <div className="carousel_text">
-          <h3>Serving a Wide Range of Industries</h3>
-          <h2>Tailored solutions for your specific vehicle needs</h2>
-        </div>
         <div className="carousel">
-          <img src="" alt="" />
-        </div>
-        <div className="carousel_button">
-          <button>Explore Our Industries</button>
+          <div className="carousel_text mb-[50px]">
+            <h3>Serving a Wide Range of Industries</h3>
+            <h2>Tailored solutions for your specific vehicle needs</h2>
+          </div>
+          <div className="carousel">
+            <div className="carouselimg mb-[40px]">
+              <img src={carouselimg1} alt="carousel img" />
+              <img src={carouselimg2} alt="carousel img" />
+              <img src={carouselimg3} alt="carousel img" />
+            </div>
+          </div>
+          <div className="carousel_button">
+            <button>Explore Our Industries</button>
+          </div>
         </div>
       </div>
     </>
