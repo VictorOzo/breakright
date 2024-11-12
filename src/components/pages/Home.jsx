@@ -9,6 +9,9 @@ import carouselimg1 from "../../assets/images/carouselimg1.png";
 import carouselimg2 from "../../assets/images/carouselimg2.png";
 import carouselimg3 from "../../assets/images/carouselimg3.png";
 import searchimg from "../../assets/images/searchimg.png";
+import newsimg1 from "../../assets/images/newsimg1.png";
+import newsimg2 from "../../assets/images/newsimg2.png";
+import newsimg3 from "../../assets/images/newsimg3.png";
 
 export const Home = () => {
   return (
@@ -125,6 +128,71 @@ export const Home = () => {
           <div className="carousel_button">
             <button>Explore Our Industries</button>
           </div>
+        </div>
+      </div>
+
+      {/* Quality Section */}
+      <div className="quality_section">
+        <div className="quality_text">
+          <h3>Why choose Brakeright</h3>
+          <h2>Superior Quality and Unmatched Expertise</h2>
+          <div className="quality_list">
+            <ul>
+              <li className="text-[white]">
+                Global Distribution
+                <p>Delivering parts to 19 countries worldwide.</p>
+              </li>
+              <li className="text-[white]">
+                Global Distribution
+                <p>Cutting-edge technology for precision and quality.</p>
+              </li>
+              <li className="text-[white]">
+                Innovative Manufacturing
+                <p>Cutting-edge technology for precision and quality.</p>
+              </li>
+              <li className="text-[white]">
+                OEM Compatibility
+                <p>
+                  Perfect fit with leading vehicle manufacturers specifications.
+                </p>
+              </li>
+              <li className="text-[white]">
+                Quality Control
+                <p>
+                  ISO-certified processes ensure top-tier product durability.
+                </p>
+              </li>
+              <li className="text-[white]">
+                Sustainability
+                <p>
+                  Environmentally responsible production and recycling
+                  practices.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* Reviews section */}
+      <div className="reviews_section h-[250px]">
+        <div className="reviews_text">
+          <h3>client’s Review</h3>
+          <h2>What they’re talking about the part’s business</h2>
+        </div>
+        <div className="reviewc_card"></div>
+      </div>
+      {/* News Section */}
+      <div className="news_section h-[250px]">
+        <div className="news_text">
+          <h3>Latest News & Industry Updates</h3>
+          <h2>
+            Stay informed with our latest product releases, events, and insights
+          </h2>
+        </div>
+        <div className="news_card">
+          <img src={newsimg1} alt="conference image" />
+          <img src={newsimg2} alt="conference image" />
+          <img src={newsimg3} alt="conference image" />
         </div>
       </div>
     </>
