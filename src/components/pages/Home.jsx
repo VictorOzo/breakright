@@ -179,20 +179,27 @@ export const Home = () => {
           <h3>client’s Review</h3>
           <h2>What they’re talking about the part’s business</h2>
         </div>
-        <div className="reviewc_card"></div>
+        <div className="reviews_card">
+          <div className=""></div>
+        </div>
       </div>
       {/* News Section */}
-      <div className="news_section h-[250px]">
-        <div className="news_text">
-          <h3>Latest News & Industry Updates</h3>
-          <h2>
-            Stay informed with our latest product releases, events, and insights
-          </h2>
-        </div>
-        <div className="news_card">
-          <img src={newsimg1} alt="conference image" />
-          <img src={newsimg2} alt="conference image" />
-          <img src={newsimg3} alt="conference image" />
+      <div className="catelog_carousel h-[250px]">
+        <div className="carousel">
+          <div className="carousel_text ">
+            <h3>Latest News & Industry Updates</h3>
+            <h2>
+              Stay informed with our latest product releases, events, and
+              insights
+            </h2>
+          </div>
+          <div className="carousel mb-[350px]">
+            <div className="carouselimg mb-[40px]">
+              <img src={newsimg1} alt="conference image" />
+              <img src={newsimg2} alt="conference image" />
+              <img src={newsimg3} alt="conference image" />
+            </div>
+          </div>
         </div>
       </div>
     </>
