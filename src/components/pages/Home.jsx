@@ -184,20 +184,58 @@ export const Home = () => {
         </div>
       </div>
       {/* News Section */}
-      <div className="catelog_carousel h-[250px]">
-        <div className="carousel">
-          <div className="carousel_text ">
+      <div className="news_carousel h-[250px]">
+        <div className="news">
+          <div className="news_text text-center mb-7 ">
             <h3>Latest News & Industry Updates</h3>
             <h2>
               Stay informed with our latest product releases, events, and
               insights
             </h2>
           </div>
-          <div className="carousel mb-[350px]">
-            <div className="carouselimg mb-[40px]">
-              <img src={newsimg1} alt="conference image" />
-              <img src={newsimg2} alt="conference image" />
-              <img src={newsimg3} alt="conference image" />
+          <div className="news mb-[350px]">
+            <div className="news_card mb-[40px]">
+              <div className="Ncard">
+                <div>
+                  <img src={newsimg1} alt="conference image" />
+                  <div className="cardText">
+                    <p>02/03/2024</p>
+                    <h2>
+                      New Product Launch: Enhanced Brake System for Heavy-Duty
+                      Vehicles
+                    </h2>
+                    <h4>
+                      We are excited to introduce our latest innovation in brake
+                      systems.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div className="Ncard">
+                <div>
+                  <img src={newsimg2} alt="conference image" />
+                  <div className="cardText">
+                    <p>02/03/2024</p>
+                    <h2>AutoSpare Exhibits at AutoCon 2024</h2>
+                    <h4>
+                      Meet us at Booth to see our latest products and
+                      innovations.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div className="Ncard">
+                <div>
+                  <img src={newsimg3} alt="conference image" />
+                  <div className="cardText">
+                    <p>02/03/2024</p>
+                    <h2>Sustainability Initiatives at Auto Spare</h2>
+                    <h4>
+                      We are committed to reducing our environmental footprint.
+                    </h4>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
