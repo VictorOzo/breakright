@@ -12,6 +12,7 @@ import searchimg from "../../assets/images/searchimg.png";
 import newsimg1 from "../../assets/images/newsimg1.png";
 import newsimg2 from "../../assets/images/newsimg2.png";
 import newsimg3 from "../../assets/images/newsimg3.png";
+import { BsWrench } from "react-icons/bs";
 
 export const Home = () => {
   return (
@@ -137,45 +138,51 @@ export const Home = () => {
           <h3>Why choose Brakeright</h3>
           <h2>Superior Quality and Unmatched Expertise</h2>
           <div className="quality_list">
-            <ul>
-              <li className="text-[white]">
+            <div className="text-[white]">
+              <h3 className="flex">
+                <BsWrench />
                 Global Distribution
-                <p>Delivering parts to 19 countries worldwide.</p>
-              </li>
-              <li className="text-[white]">
-                Global Distribution
-                <p>Cutting-edge technology for precision and quality.</p>
-              </li>
-              <li className="text-[white]">
+              </h3>
+              <p>Delivering parts to 19 countries worldwide.</p>
+            </div>
+            <div className="text-[white]">
+              <h3 className="flex">
+                <BsWrench />
                 Innovative Manufacturing
-                <p>Cutting-edge technology for precision and quality.</p>
-              </li>
-              <li className="text-[white]">
+              </h3>
+              <p>Cutting-edge technology for precision and quality.</p>
+            </div>
+            <div className="text-[white]">
+              <h3 className="flex">
+                <BsWrench />
                 OEM Compatibility
-                <p>
-                  Perfect fit with leading vehicle manufacturers specifications.
-                </p>
-              </li>
-              <li className="text-[white]">
+              </h3>
+              <p>
+                Perfect fit with leading vehicle manufacturers specifications.
+              </p>
+            </div>
+            <div className="text-[white]">
+              <h3 className="flex">
+                <BsWrench />
                 Quality Control
-                <p>
-                  ISO-certified processes ensure top-tier product durability.
-                </p>
-              </li>
-              <li className="text-[white]">
+              </h3>
+              <p>ISO-certified processes ensure top-tier product durability.</p>
+            </div>
+            <div className="text-[white]">
+              <h3 className="flex">
+                <BsWrench />
                 Sustainability
-                <p>
-                  Environmentally responsible production and recycling
-                  practices.
-                </p>
-              </li>
-            </ul>
+              </h3>
+              <p>
+                Environmentally responsible production and recycling practices.
+              </p>
+            </div>
           </div>
         </div>
       </div>
       {/* Reviews section */}
-      <div className="reviews_section h-[250px]">
-        <div className="reviews_text">
+      <div className="reviews_section ">
+        <div className="reviews_text text-center p-8 ">
           <h3>client’s Review</h3>
           <h2>What they’re talking about the part’s business</h2>
         </div>

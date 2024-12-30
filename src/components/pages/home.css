@@ -222,8 +222,31 @@
   margin-top: 120px;
 }
 
+.reviews_section {
+  height: 900px;
+  background-color: #e3e2e2;
+  padding: 0 4vw;
+}
+.reviews_text h2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35.2px;
+  letter-spacing: -0.04em;
+  color: #1e1e1e;
+}
+.reviews_text h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26.4px;
+  letter-spacing: -0.02em;
+  color: #000d81;
+  margin-bottom: 15px;
+}
+
 .news_carousel {
-  margin-top: 150px;
+  margin-top: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
