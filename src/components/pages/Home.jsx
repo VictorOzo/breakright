@@ -12,7 +12,10 @@ import searchimg from "../../assets/images/searchimg.png";
 import newsimg1 from "../../assets/images/newsimg1.png";
 import newsimg2 from "../../assets/images/newsimg2.png";
 import newsimg3 from "../../assets/images/newsimg3.png";
+import reviewimg1 from "../../assets/images/reviewimg1.png";
+import reviewimg2 from "../../assets/images/reviewimg2.png";
 import { BsWrench } from "react-icons/bs";
+import { GoStarFill, GoStar } from "react-icons/go";
 
 export const Home = () => {
   return (
@@ -187,7 +190,78 @@ export const Home = () => {
           <h2>What they’re talking about the part’s business</h2>
         </div>
         <div className="reviews_card">
-          <div className=""></div>
+          <div className="reviews">
+            <div className="star flex">
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStar color="orange" />
+            </div>
+            <div className="reviews_text mt-2 ">
+              <p>
+                Sit eu auctor purus sed ornare vitae massa. Nisl vitae ornare
+                phasellus tempor porta sem. Sed ultricies fermentum duis quam id
+                scelerisque. Tristique diam molestie felis purus non gravida
+                fermentum. Quis massa morbi adipiscing odio urna amet.
+              </p>
+            </div>
+            <div className="reviews_user flex mt-2 ">
+              <img src={reviewimg1} alt="reviewer image" />
+              <div className="reviews_text">
+                <p>John Doe</p>
+                <p>Client</p>
+              </div>
+            </div>
+          </div>
+          <div className="reviews">
+            <div className="star flex">
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStar color="orange" />
+              <GoStar color="orange" />
+            </div>
+            <div className="reviews_text mt-2">
+              <p>
+                Sit eu auctor purus sed ornare vitae massa. Nisl vitae ornare
+                phasellus tempor porta sem. Sed ultricies fermentum duis quam id
+                scelerisque. Tristique diam molestie felis purus non gravida
+                fermentum. Quis massa morbi adipiscing odio urna amet.
+              </p>
+            </div>
+            <div className="reviews_user flex mt-2">
+              <img src={reviewimg2} alt="reviewer image" />
+              <div className="reviewer_text">
+                <p>John Doe</p>
+                <p>Client</p>
+              </div>
+            </div>
+          </div>
+          <div className="reviews">
+            <div className="star flex">
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStarFill color="orange" />
+              <GoStar color="orange" />
+            </div>
+            <div className="reviews_text mt-2">
+              <p>
+                Sit eu auctor purus sed ornare vitae massa. Nisl vitae ornare
+                phasellus tempor porta sem. Sed ultricies fermentum duis quam id
+                scelerisque. Tristique diam molestie felis purus non gravida
+                fermentum. Quis massa morbi adipiscing odio urna amet.
+              </p>
+            </div>
+            <div className="reviews_user flex  mt-2">
+              <img src={reviewimg1} alt="reviewer image" />
+              <div className="reviewer_text">
+                <p>John Doe</p>
+                <p>Client</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* News Section */}

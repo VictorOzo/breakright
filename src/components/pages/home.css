@@ -223,7 +223,7 @@
 }
 
 .reviews_section {
-  height: 900px;
+  height: 500px;
   background-color: #e3e2e2;
   padding: 0 4vw;
 }
@@ -243,6 +243,32 @@
   letter-spacing: -0.02em;
   color: #000d81;
   margin-bottom: 15px;
+}
+
+.reviews {
+  width: 400px;
+  height: 270px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.reviews_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.reviews_text p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+.reviewer_text {
+  margin-left: 10px;
 }
 
 .news_carousel {
