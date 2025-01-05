@@ -116,6 +116,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      {/* catelog carousel section */}
       <div className="catelog_carousel">
         <div className="carousel">
           <div className="carousel_text mb-[50px]">
@@ -138,47 +139,56 @@ export const Home = () => {
       {/* Quality Section */}
       <div className="quality_section">
         <div className="quality_text">
-          <h3>Why choose Brakeright</h3>
-          <h2>Superior Quality and Unmatched Expertise</h2>
-          <div className="quality_list">
-            <div className="text-[white]">
-              <h3 className="flex">
-                <BsWrench />
-                Global Distribution
-              </h3>
-              <p>Delivering parts to 19 countries worldwide.</p>
-            </div>
-            <div className="text-[white]">
-              <h3 className="flex">
-                <BsWrench />
-                Innovative Manufacturing
-              </h3>
-              <p>Cutting-edge technology for precision and quality.</p>
-            </div>
-            <div className="text-[white]">
-              <h3 className="flex">
-                <BsWrench />
-                OEM Compatibility
-              </h3>
-              <p>
-                Perfect fit with leading vehicle manufacturers specifications.
-              </p>
-            </div>
-            <div className="text-[white]">
-              <h3 className="flex">
-                <BsWrench />
-                Quality Control
-              </h3>
-              <p>ISO-certified processes ensure top-tier product durability.</p>
-            </div>
-            <div className="text-[white]">
-              <h3 className="flex">
-                <BsWrench />
-                Sustainability
-              </h3>
-              <p>
-                Environmentally responsible production and recycling practices.
-              </p>
+          <div className="mt-[100px]">
+            <h3>Why choose Brakeright</h3>
+            <h2>Superior Quality and Unmatched Expertise</h2>
+            <div className="quality_list mt-4">
+              <div className="text-[white] quality_item ">
+                <h4 className="quality_item_text">
+                  <BsWrench className="mr-4" />
+                  Global Distribution
+                </h4>
+                <p className="ml-8">
+                  Delivering parts to 19 countries worldwide.
+                </p>
+              </div>
+              <div className="text-[white] quality_item">
+                <h4 className="quality_item_text">
+                  <BsWrench className="mr-4" />
+                  Innovative Manufacturing
+                </h4>
+                <p className="ml-8">
+                  Cutting-edge technology for precision and quality.
+                </p>
+              </div>
+              <div className="text-[white] quality_item">
+                <h4 className="quality_item_text">
+                  <BsWrench className="mr-4" />
+                  OEM Compatibility
+                </h4>
+                <p className="ml-8">
+                  Perfect fit with leading vehicle manufacturers specifications.
+                </p>
+              </div>
+              <div className="text-[white] quality_item">
+                <h4 className="quality_item_text">
+                  <BsWrench className="mr-4" />
+                  Quality Control
+                </h4>
+                <p className="ml-8">
+                  ISO-certified processes ensure top-tier product durability.
+                </p>
+              </div>
+              <div className="text-[white] quality_item">
+                <h4 className="quality_item_text">
+                  <BsWrench className="mr-4" />
+                  Sustainability
+                </h4>
+                <p className="ml-8">
+                  Environmentally responsible production and recycling
+                  practices.
+                </p>
+              </div>
             </div>
           </div>
         </div>
